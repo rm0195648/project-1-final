@@ -1656,7 +1656,7 @@ MOBILE RESPONSIVENESS ↓
         width: 100%;
     }
 
-    #steps .quality__description {
+    #steps .steps__description {
         width: 100%;
         padding: 0;
         margin: 0;
@@ -1682,7 +1682,7 @@ MOBILE RESPONSIVENESS ↓
 
     #steps .step__description {
         margin-left: 0;
-        max-width: 100%;
+        max-width: 100;
         align-items: center;
     }
 
@@ -1881,14 +1881,12 @@ MOBILE RESPONSIVENESS ↓
     
 }
 
-
-
 .footer__column:nth-child(4) {
-    margin-left: 0;
+    margin-left: 16.666%;
 }
 
 .footer__column:nth-child(5) {
-    margin-right: 0;
+    margin-right: 16.666%;
 }
 
 .footer__column {
@@ -1905,9 +1903,7 @@ MOBILE RESPONSIVENESS ↓
 .footer__columns {
     justify-content: flex-start;
   }
-  .footer__column {
-    width: 20%;
-  }
+ 
   .footer__bottom {
     flex-direction: column;
     align-items: center;
